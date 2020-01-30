@@ -14,9 +14,5 @@ public class Main
 
         Cat topcat = new Cat();
         topcat.speak();
-        for(int i = 0; i <9; i++){
-            topcat.kill();
-        }
-
     }
 }
