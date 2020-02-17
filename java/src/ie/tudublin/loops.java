@@ -11,12 +11,14 @@ public class loops extends PApplet {
         colorMode(HSB);
     }
     public void draw() {
-        design2();
+        background(0);
+        design3();
+        design1();
     }
 
     public void design1(){
-        background(210);
-        stroke(50);
+
+        stroke(25);
         for(int i = 0; i <=500; i += 25){
             for (int j = 500; j >= 0; j -= 25){
                 fill(186, 192, 224);
@@ -25,7 +27,7 @@ public class loops extends PApplet {
         }
     }
     public void design2(){
-        background(210);
+
         stroke(50);
         for(int i = 0; i <=500; i += 25){
             for (int j = 500; j >= 0; j -= 25){
@@ -35,8 +37,8 @@ public class loops extends PApplet {
         }
     }
     public void design3(){
-        background(210);
-        stroke(50);
+
+        stroke(10);
         for(int i = 0; i <=500; i += 25){
             for (int j = 500; j >= 0; j -= 25){
                 fill(186, 192, 224);
